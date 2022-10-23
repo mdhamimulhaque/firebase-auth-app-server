@@ -1,0 +1,18 @@
+[
+    {
+        "id": "01",
+        "name": "Chocolate"
+    },
+    {
+        "id": "02",
+        "name": "Vanilla"
+    },
+    {
+        "id": "03",
+        "name": "Strawberry"
+    },
+    {
+        "id": "00",
+        "name": "All"
+    }
+]
