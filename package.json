@@ -1,0 +1,14 @@
+{
+  "name": "firebase_auth_app_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "md hamimul haque",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
