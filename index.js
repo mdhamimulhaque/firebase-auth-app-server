@@ -31,18 +31,19 @@ app.get('/category/:id', (req, res) => {
 
 })
 
-// ---> all categories product
-// app.get('/category/:id', (req, res) => {
-//     const id = (req.params.id);
-
-//     const currentCategory = products.find(pd => pd._id === id);
-//     res.send(currentCategory)
-
-// })
 
 // ---> products
 app.get('/products', (req, res) => {
     res.send(products)
+})
+
+// ---> single product data
+app.get('/product-details/:id', (req, res) => {
+    const id = (req.params.id);
+
+    const currentCategory = products.find(pd => pd._id === id);
+    res.send(currentCategory)
+
 })
 
 
